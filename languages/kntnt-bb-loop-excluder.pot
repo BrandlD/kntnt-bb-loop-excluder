@@ -1,0 +1,33 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kntnt's posts excluder for the Beaver Builder plugin.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-14 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: kntnt-bb-loop-excluder.php:38
+msgid "Exclude duplicates"
+msgstr ""
+
+#: kntnt-bb-loop-excluder.php:39
+msgid "Exclude all previous returned posts from this query."
+msgstr ""
+
+#. Name of the plugin
+msgid "Kntnt's Exclude Duplicated Posts for Beaver Builder"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Makes it possible to avoid duplicated posts when using Beaver Builder custom "
+"query."
+msgstr ""
