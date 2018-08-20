@@ -1,6 +1,6 @@
 # Kntnt's Exclude Duplicated Posts for Beaver Builder
 
-Makes it possible to avoid duplicated posts when using Beaver Builder custom query.
+WodPress plugin that extends Beaver Builder post modules (e.g. post-grid, post-slider and post-carosuel) to complement the posts shown with posts selected with Advanced Customfield (ACF) relation field.
 
 ## Description
 
