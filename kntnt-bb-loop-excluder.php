@@ -47,7 +47,7 @@ final class Plugin {
 	public function builder_loop_query_args( $args ) {
 
 		if ( $this->pids && isset( $args['settings']->exclude_self ) && 'yes' == $args['settings']->exclude_self ) {
-			// Current post id is added to $args['post__not_in'] before this filter is called.
+			// Current post id was added to $args['post__not_in'] before this filter is called.
 			$args['post__not_in'] = array_merge( $this->pids, $args['post__not_in'] );
 		}
 
@@ -57,8 +57,10 @@ final class Plugin {
 
 	public function builder_loop_query( $query, $settings ) {
 
-		foreach ( $query->posts as $post ) {
-			$this->pids[] = $post->ID;
+		if ( isset( $query->posts ) ) {
+			foreach ( $query->posts as $post ) {
+				$this->pids[] = $post->ID;
+			}
 		}
 
 		return $query;
